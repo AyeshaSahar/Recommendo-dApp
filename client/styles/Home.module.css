@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #d37df5;
+}
+
+.recommendation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.recommendation > span > button {
+  border: none;
+  height: 30px !important;
+  
+}
+
+.recommendationForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 30px;
+  font-size: 30px;
+
+}
+
+.recommendationForm > span > button {
+  border: none;
+  height: 20px !important;
+}
+
+.main{
+  background-color: rgb(74, 106, 95);
+}
